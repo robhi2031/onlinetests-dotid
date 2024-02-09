@@ -59,8 +59,10 @@ return [
 
     'asset_url' => env('ASSET_URL'),
 
-    /* Raja Ongkir Service */
+    /* Raja Ongkir Service API */
+    'roa_url' => env('RAJAONGKIR_API_URL'),
     'roa_key' => env('RAJAONGKIR_API_KEY'),
+    'roa_src' => (bool) env('RAJAONGKIR_SOURCE', false),
 
     /*
     |--------------------------------------------------------------------------

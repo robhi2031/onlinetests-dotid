@@ -21,9 +21,8 @@ php artisan key:generate
 
 ## Sprint 1
 - Integrasi dengan API province & city Rajaongkir (paket starter), Online link for testing :
-https://onlinetests.pronext.id/public/provinces
-
-https://onlinetests.pronext.id/public/cities
+  - https://onlinetests.pronext.id/public/provinces
+  - https://onlinetests.pronext.id/public/cities
 
 - Artisan command for fetching API data province & city Rajaongkir
   Perform database migration with command
@@ -32,7 +31,7 @@ php artisan migrate
 ```
 and running command 
 ```bash
-"php artisan app:sync-rajaongkir-data"
+php artisan app:sync-rajaongkir-data
 ```
 
 - REST API for province & city search

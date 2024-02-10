@@ -9,7 +9,7 @@
 ```bash
 composer install
 ```
-- Create .env dan generate key:
+- Create .env and generate key:
 ```bash
 cp .env.example .env
 php artisan key:generate
@@ -58,7 +58,7 @@ and running command
 \App\Models\User::factory()->count(3)->create();
 ```
   - Test using Talent Api Tester or Postman: [POST] https://onlinetests.pronext.id/public/api/login?email={email}&password={password}
-  - Use login token for Authorization on [GET] https://onlinetests.pronext.id/public/search/provinces?id={province_id} dan [GET] https://onlinetests.pronext.id/public/search/cities?id={city_id}
+  - Use login token for Authorization on [GET] https://onlinetests.pronext.id/public/search/provinces?id={province_id} and [GET] https://onlinetests.pronext.id/public/search/cities?id={city_id}
 
 If there are problems trying to log in as a user, try creating a passport token.
 running command 

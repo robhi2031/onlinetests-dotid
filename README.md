@@ -4,7 +4,7 @@
 - php 8.1
 - laravel 10
 
-## Installation
+## Installation and Configuration
 - You can install the package via composer:
 ```bash
 composer install

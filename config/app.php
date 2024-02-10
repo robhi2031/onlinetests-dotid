@@ -61,7 +61,6 @@ return [
 
     /* Raja Ongkir Service */
     'roa_key' => env('RAJAONGKIR_API_KEY'),
-
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

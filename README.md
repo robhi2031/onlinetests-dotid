@@ -21,6 +21,27 @@ php artisan key:generate
 'roa_src' => (bool) env('RAJAONGKIR_SOURCE', false),
 ```
 
+
+## Sprint 1
+- Integrasi dengan API province & city Rajaongkir (paket starter), Online link for testing :
+  - https://onlinetests.pronext.id/public/provinces
+  - https://onlinetests.pronext.id/public/cities
+
+- Artisan command for fetching API data province & city Rajaongkir
+  Perform database migration with command
+```bash
+php artisan migrate
+```
+and running command 
+```bash
+php artisan app:sync-rajaongkir-data
+```
+
+- REST API for province & city search
+  - Test using Talent Api Tester or Postman: [GET] https://onlinetests.pronext.id/public/search/provinces?id={province_id}
+  - Test using Talent Api Tester or Postman: [GET] https://onlinetests.pronext.id/public/search/cities?id={city_id}
+
+
 ## Sprint 2
 - Search data source for provinces & cities can be through database or direct Rajaongkir API (swapable implementation):
   - Test using Talent Api Tester or Postman: [GET] https://onlinetests.pronext.id/public/search/provinces?id={province_id}

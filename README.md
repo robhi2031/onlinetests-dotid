@@ -9,7 +9,7 @@
 ```bash
 composer install
 ```
-- Create .env dan generate key:
+- Create .env and generate key:
 ```bash
 cp .env.example .env
 php artisan key:generate
